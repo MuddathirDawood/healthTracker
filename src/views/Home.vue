@@ -217,7 +217,44 @@
                     </v-list-item-content>
                   </v-list-item>
                 </v-card>
-              </v-col>                         
+              </v-col>     
+              <v-col cols="12" sm="12">
+                <v-card class="mx-12 rounded-xl mt-n4 py-4" color="teal lighten-5" flat>
+                  <v-list-item three-line>
+                    <v-list-item-avatar tile size="30">
+                      <v-icon size="30">fas fa-heartbeat</v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content class="pa-2">
+                      <v-list-item-title class="headline mb-1">
+                        Cardiologist <br>
+                        <h6>9:45 - 11:50</h6>
+                        <h6>Dr. Erika Clark(cab 61)</h6>
+                      </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>
+              <v-col cols="12" sm="12">
+                <v-btn text>Your Treatment
+                  <v-icon right>mdi-chevron-down</v-icon>
+                </v-btn>
+              </v-col>    
+              <v-col cols="12" sm="12">
+                <v-card class="mx-12 rounded-xl mt-n4" color="teal lighten-5" flat>
+                  <v-list-item three-line>
+                    <v-list-item-avatar tile size="30">
+                      <v-icon size="30" color="teal">mdi-pill</v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content class="pa-2">
+                      <v-list-item-title class="headline mb-1">
+                        Gentle Iron <br>
+                        <h6><span class="teal--text">2 capsules</span> with meals every day</h6>
+                      </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+
+                </v-card>
+              </v-col>                    
             </v-row>
           </v-container>
         </v-app>
