@@ -102,10 +102,123 @@
           </v-container>
         </v-app>
       </v-flex>
-      <v-flex md3>
+      <v-flex md4>
         <v-app :style="{background: $vuetify.theme.themes.light.background}">
           <v-container>
-            
+            <v-row>
+              <v-col cols="12" sm="12">
+                 <v-list two-line>
+                  <v-list-item>
+                    <v-list-item-avatar>
+                      <img src="https://cdn.vuetifyjs.com/images/list/3.jpg" alt="img">
+                    </v-list-item-avatar>
+                    <v-list-item-content>
+                      <v-list-item-title>Muddathir Dawood</v-list-item-title>
+                      <v-list-item-subtitle class="teal--text">18 years, Cape Town</v-list-item-subtitle>
+                    </v-list-item-content>
+                    <v-space></v-space>
+                    <v-icon color="teal">mdi-menu</v-icon>
+                  </v-list-item>
+                 </v-list>
+              </v-col>
+              <v-col cols="12" md="4">
+                  <v-row>
+                    <v-col cols="12" md="2">
+                      <v-card height="50px" width="10px" color="green"></v-card>
+                    </v-col>
+                    <v-col cols="12" md="10">
+                      <v-list two-line subheader class="ml-n8">
+                        <v-list-item>
+                          <v-list-item-content>
+                            <v-list-item-subtitle>Blood</v-list-item-subtitle>
+                            <v-list-item-title>B+</v-list-item-title>
+                          </v-list-item-content>
+                        </v-list-item>
+                      </v-list>
+                    </v-col>
+                  </v-row>
+              </v-col>
+              <v-col cols="12" md="4">
+                  <v-row>
+                    <v-col cols="12" md="2">
+                      <v-card height="50px" width="10px" color="red"></v-card>
+                    </v-col>
+                    <v-col cols="12" md="10">
+                      <v-list two-line subheader class="ml-n8">
+                        <v-list-item>
+                          <v-list-item-content>
+                            <v-list-item-subtitle>Height</v-list-item-subtitle>
+                            <v-list-item-title>169 cm</v-list-item-title>
+                          </v-list-item-content>
+                        </v-list-item>
+                      </v-list>
+                    </v-col>
+                  </v-row>
+              </v-col>
+              <v-col cols="12" md="4">
+                  <v-row>
+                    <v-col cols="12" md="2">
+                      <v-card height="50px" width="10px" color="blue"></v-card>
+                    </v-col>
+                    <v-col cols="12" md="10">
+                      <v-list two-line subheader class="ml-n8">
+                        <v-list-item>
+                          <v-list-item-content>
+                            <v-list-item-subtitle>Weight</v-list-item-subtitle>
+                            <v-list-item-title>64 kg</v-list-item-title>
+                          </v-list-item-content>
+                        </v-list-item>
+                      </v-list>
+                    </v-col>
+                  </v-row>
+              </v-col>
+              <v-col cols="12" sm="12">
+                <v-btn text>
+                  September
+                  <v-icon right>mdi-chevron-down</v-icon>
+                </v-btn>
+              </v-col>
+              <v-col cols="12" sm="12">
+                <v-list>
+                  <v-list-item>
+                    <v-list-item-content>
+                      <v-btn class="mr-1" outlined color="teal darken-1">Mon</v-btn>
+                    </v-list-item-content>
+                    <v-list-item-content>
+                      <v-btn class="mr-1" outlined color="teal darken-1">Tue</v-btn>
+                    </v-list-item-content>
+                    <v-list-item-content>
+                      <v-btn class="mr-1" color="teal darken-1" dark>Wed</v-btn>
+                    </v-list-item-content>
+                    <v-list-item-content>
+                      <v-btn class="mr-1" outlined color="teal darken-1">Thu</v-btn>
+                    </v-list-item-content>
+                    <v-list-item-content>
+                      <v-btn class="mr-1" outlined color="teal darken-1">Fri</v-btn>
+                    </v-list-item-content>
+                    <v-list-item-content>
+                      <v-btn class="mr-1" outlined color="teal darken-1">Sat</v-btn>
+                    </v-list-item-content>                    
+                  </v-list-item>
+                </v-list>
+              </v-col>   
+              <v-col cols="12" sm="12">
+                <v-card class="mx-12 rounded-xl mt-n4 py-4" color="teal" dark flat>
+                  <v-list-item three line>
+                    <v-list-item-avatar tile size="30">
+                      <v-icon size="30">mdi-tooth</v-icon>
+                    </v-list-item-avatar>
+                    <v-list-item-content class="pa-2">
+                      <v-list-item-title class="headline mb-1">
+                        Dentist <br>
+                        <h6>8:00 - 9:30</h6>
+                        <h6>Dr. Alex Brown(cab 39)</h6>
+                      </v-list-item-title>
+                    </v-list-item-content>
+                  </v-list-item>
+                </v-card>
+              </v-col>                         
+            </v-row>
           </v-container>
         </v-app>
       </v-flex>
